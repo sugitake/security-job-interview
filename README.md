@@ -31,32 +31,35 @@ organizing security engineer job interview questions and answers
     There are generally 9 elements of hardening, which are secure server location, control access permissions, set up your firewall, manage configuration, secure user accounts, apply patches to vulnerabilities, remove unnecessary software, plan a backup strategy, continuously monitor
 14. **What is Server Hardening benchmark?**  
     A major Server Hardening benchmark is the Center of Internet Security(CIS). This is a set of globally recognized and consensus-driven best practices to help security practitioners implement and manage their cybersecurity defenses.
-15. What is a zero-day vulnerability?
+15. **What is a zero-day vulnerability?**  
+    A zero-day vulnerability is a vulnerability in a system or device that has been disclosed but is not yet patched. An exploit that attacks a zero-day vulnerability is called a zero-day exploit. Attackers release malware before a developer has an oppotunity to create a patch to fix the vulnerability - hence "zero-day".
+17. **What's the difference between hashing, encryption, and encoding?**  
+    Hash is used to validate the integrity of the content by detecting all modifications and thereafter changes to a hash output.Encryption encodes data for the primary purpose of maintaining data confidentiality and security. It requires a private key to reversible function encrypted text to plain text. Organized [here](./hash_encry.md)
+18. **What is TTP?**  
+    TTP stands for tactics, techniques, and procedures, which means the behavior of an actor. A tactic is the highest-levedl description of this behavior, while techniques gives a more detailed description of behavior in the context of a tactic, and procedures an even lower-level, highly detaild description in the context of a technique.
+19. Describe your home network or lab.
     
-16. What is TTP?
-17. What's the difference between hashing, encryption, and encoding?
-18. Describe your home network or lab?
-19. Which is more secure, open source or closed source?
-20. What security framework is the best?
-21. What is the primary goal of IT security or cybersecurity?
-22. What is a threat, risk, and a vulnerability?
-23. Where do you get security news from?
-24. Why are preventive controls better than detective controls?
-25. Should you compressed or encryped first?
-26. What are the most important files in Linux?
-27. What is the difference between shadow file and password file in linux?
-28. What is previlege escalation in linux?\
-29. What is the HTTP status code we might get back from a server?
-30. What is the vulnerability assessment and penetration test?
-31. What is the Mitre Att&ck framework?
-32. How can we determine if an email is legitimate?
-33. What is SQL injection and how to prevent it?
-34. What is Cross-site Scripting (XSS) and how will you mitigate it?
-35. What is data leakage and how will you detect and prevent it?
-36. What is Salting?
-37. What is Password salting?
-38. What is honeypot?
-39. What is Residual Resk?
+20. Which is more secure, open source or closed source?
+21. What security framework is the best?
+22. What is the primary goal of IT security or cybersecurity?
+23. What is a threat, risk, and a vulnerability?
+24. Where do you get security news from?
+25. Why are preventive controls better than detective controls?
+26. Should you compressed or encryped first?
+27. What are the most important files in Linux?
+28. What is the difference between shadow file and password file in linux?
+29. What is previlege escalation in linux?\
+30. What is the HTTP status code we might get back from a server?
+31. What is the vulnerability assessment and penetration test?
+32. What is the Mitre Att&ck framework?
+33. How can we determine if an email is legitimate?
+34. What is SQL injection and how to prevent it?
+35. What is Cross-site Scripting (XSS) and how will you mitigate it?
+36. What is data leakage and how will you detect and prevent it?
+37. What is Salting?
+38. What is Password salting?
+39. What is honeypot?
+40. What is Residual Resk?
 
 
 
@@ -95,8 +98,8 @@ organizing security engineer job interview questions and answers
 54. Differentiate XSS from CSRF.
 55. What is a server-side request forgery attack?
 56. What is the same-origin policy and CORS?
-57. What is role-based access control (RBAC), and why do compliance frameworks cover it?
-58. What is the NIST framework, and why is it influential?
+58. What is role-based access control (RBAC), and why do compliance frameworks cover it?
+59. What is the NIST framework, and why is it influential?
 
 ## Technical Terms
 [here](./terms.md)
