@@ -25,11 +25,11 @@ organizing security engineer job interview questions and answers
     Cyber Kill Chain is a part of the Intelligence Driven Defence model for the identification and prevention of cyber intrusions activity. This model provides seven steps which adversaries must completely progress through. Reconnaissance, weaponization, delivery, exploitation, installation, command&control(C2), Actions on objects. Finally, the adversaries collect user credentials or confidential assets from organizations. Defenders must block them at every steps by implementing security methods for each. More detail is [here](./cyber_kill_chain.md)
 11. **Explain the OSI Model. What protocols are used.**  
     OSI stands for Open Systems Interconnection. This model describes severn layers that computer systems use to communicate over a network.The modern internet is not based on this model, but on the simpler TCP/IP model. However, the OSI 7-layer model is still widely used, as it helps visualize and communicate how networks operate, and helps isolate and troubleshoot networking problems. IOS model consists of 7 layers, Physical Layer, Data Link Layer, Network Layer, Transport Layer, Session Layer, Presentation Layer, and Application Layer. More details are [here](./osi_model.md).
-12. What is Server Hardening?
+12. **What is Server Hardening?**  
     Server hardening is a set of disciplines and techniques which improve the security of an 'off the shelf' server. NIST defines it as "a process intended to eliminate a means of attack by patching bulnerabilities and turning off non-essential services". Server Hardening is requirement of security frameworks such as PCI-DSS and is typically included when organisation adopt ISO 27001. The purpose is to reduce the attack surface of the server, which is all the different points where an attacker can attempt to access or damage the server. For that purpose, the goal of hardening is to remove all unnecessary components and access to the server in order to maximize its security.
-13. How would you implement Server Hardening?
+13. **How would you implement Server Hardening?**  
     There are generally 9 elements of hardening, which are secure server location, control access permissions, set up your firewall, manage configuration, secure user accounts, apply patches to vulnerabilities, remove unnecessary software, plan a backup strategy, continuously monitor
-14. What is Server Hardening benchmark?
+14. **What is Server Hardening benchmark?**  
     A major Server Hardening benchmark is the Center of Internet Security(CIS). This is a set of globally recognized and consensus-driven best practices to help security practitioners implement and manage their cybersecurity defenses.
 15. What is a zero-day vulnerability?
     
