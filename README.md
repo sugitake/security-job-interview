@@ -36,30 +36,37 @@ organizing security engineer job interview questions and answers
 17. **What's the difference between hashing, encryption, and encoding?**  
     Hash is used to validate the integrity of the content by detecting all modifications and thereafter changes to a hash output.Encryption encodes data for the primary purpose of maintaining data confidentiality and security. It requires a private key to reversible function encrypted text to plain text. Organized [here](./hash_encry.md)
 18. **What is TTP?**  
-    TTP stands for tactics, techniques, and procedures, which means the behavior of an actor. A tactic is the highest-levedl description of this behavior, while techniques gives a more detailed description of behavior in the context of a tactic, and procedures an even lower-level, highly detaild description in the context of a technique.
-19. Describe your home network or lab.
-    
-20. Which is more secure, open source or closed source?
-21. What security framework is the best?
-22. What is the primary goal of IT security or cybersecurity?
-23. What is a threat, risk, and a vulnerability?
-24. Where do you get security news from?
-25. Why are preventive controls better than detective controls?
-26. Should you compressed or encryped first?
-27. What are the most important files in Linux?
-28. What is the difference between shadow file and password file in linux?
-29. What is previlege escalation in linux?\
-30. What is the HTTP status code we might get back from a server?
-31. What is the vulnerability assessment and penetration test?
-32. What is the Mitre Att&ck framework?
-33. How can we determine if an email is legitimate?
-34. What is SQL injection and how to prevent it?
-35. What is Cross-site Scripting (XSS) and how will you mitigate it?
-36. What is data leakage and how will you detect and prevent it?
-37. What is Salting?
-38. What is Password salting?
-39. What is honeypot?
-40. What is Residual Resk?
+    TTP stands for tactics, techniques, and procedures, which means the behavior of an threat actor. A tactic is the highest-level description of this behavior, while techniques gives a more detailed description of behavior in the context of a tactic, and procedures is an even lower-level, highly detaild description in the context of a technique.
+19. **What is DevSecOps?**  
+    DevSecOps is a development practice that initegrates security initiatives at every stage of the software development lifecycle to deliver robust and secure applications. 
+20. **What is the Mitre Att&ck framework?**  
+    When it comes to MITRE ATT&CK®, it stands for MITRE Adversarial Tactics, Techniques, and Common Knowledge. It is basically a trademark of the same and a framework where the entire data of cyber adversary behavior is reported. This can help you understand the attacker and make it easy for you to plan further strategies to keep the data safe and secure.
+21. **Explain the Mitre ATT&CK use?**  
+    The Mitre Att&CK is quite popular among cyber specialists. The red teamers, Threat hunters, and defenders consider using the MITRE ATT&CK paradigm as it helps them find all about the cyberattacks better. Not only this, but it also helps you assess the vulnerability level of the organization to plan better security tactics that can assist them in keeping all the attacks away.
+22. **What is CIA?**  
+    CIA triad is the key objectives of cybersecurity program. This triad has three components, which are confidentiality, integrity, and availability. Confidentiality ensures that unauthorized individuals are not able to gain access to sensitive information. Integrity ensures that there are no unauthorized modifications to information or systems, either intentionally or unintentionally. Availability ensures that information and systems are ready to meet the needs of legitimate users at the time those users request them.
+23. **What is difference between IDS and IPS?**  
+    An intrusion detection system (IDS) is defined as a solution that monitors network events and analyzes them to detect security incidents and imminent threats. An intrusion prevention system (IPS) is defined as a solution that performs intrusion detection and then goes one step ahead and prevents any detected threats.
+24. Which is more secure, open source or closed source?
+25. What security framework is the best?
+26. What is the primary goal of IT security or cybersecurity?
+27. What is a threat, risk, and a vulnerability?
+28. Where do you get security news from?
+29. Why are preventive controls better than detective controls?
+30. Should you compressed or encryped first?
+31. What are the most important files in Linux?
+32. What is the difference between shadow file and password file in linux?
+33. What is previlege escalation in linux?
+34. What is the HTTP status code we might get back from a server?
+35. What is the vulnerability assessment and penetration test?
+36. How can we determine if an email is legitimate?
+37. What is SQL injection and how to prevent it?
+38. What is Cross-site Scripting (XSS) and how will you mitigate it?
+39. What is data leakage and how will you detect and prevent it?
+40. What is Salting?
+41. What is Password salting?
+42. What is honeypot?
+43. What is Residual Resk?
 
 
 
